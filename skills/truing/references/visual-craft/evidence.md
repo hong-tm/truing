@@ -80,8 +80,8 @@ Shorthand: "the rental app round" = one measured 13-page redesign (the rental ap
 
 ### R-VIS-039
 
-- Evidence: render audit of 13 the rental app pages (2026-11-03). Eight tables top-aligned their text but drew 32px row buttons, 32px avatars and icon-led buttons on their own centre. The action sat 4–9px below the row's first line. Source review had passed all eight, because each cell was correct on its own. The first repair (baseline alignment) moved two-line identity cells 6px up. Only the render caught that regression, and a second repair fixed it.
-- Trail: measured on the rental app 13 pages, 1440 and 390 widths (2026-11-03); fixed in commit df626a7.
+- Evidence: render audit of 13 pages of the rental app (2026-11-03). Eight tables top-aligned their text but drew 32px row buttons, 32px avatars and icon-led buttons on their own centre. The action sat 4–9px below the row's first line. Source review had passed all eight, because each cell was correct on its own. The first repair (baseline alignment) moved two-line identity cells 6px up. Only the render caught that regression, and a second repair fixed it.
+- Trail: measured on the rental app 13 pages, 1440 and 390 widths (2026-11-03).
 
 ## hierarchy-and-restraint
 
