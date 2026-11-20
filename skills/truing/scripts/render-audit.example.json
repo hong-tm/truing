@@ -1,0 +1,45 @@
+{
+  "base": "http://127.0.0.1:5173",
+  "out": "./render-audit",
+  "viewports": [
+    1440,
+    390
+  ],
+  "themes": [
+    "light",
+    "dark"
+  ],
+  "themeMode": "class",
+  "expectAsset": "index-abc123.css",
+  "waitMs": 1000,
+  "hide": [
+    "#dev-toolbar"
+  ],
+  "signatureVar": "--primary",
+  "cookies": [
+    {
+      "name": "session",
+      "value": "dev"
+    }
+  ],
+  "pages": [
+    {
+      "name": "overview",
+      "url": "/dashboard",
+      "setup": [
+        "/login-as/admin"
+      ],
+      "focus": "table, [data-slot=card]"
+    },
+    {
+      "name": "lease-form",
+      "url": "/leases/new",
+      "shape": "form"
+    },
+    {
+      "name": "welcome",
+      "url": "/welcome",
+      "allowVoid": true
+    }
+  ]
+}
